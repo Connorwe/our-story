@@ -11,9 +11,9 @@ function Navbar() {
 
     return ( 
         <header>
-            <h3>Logo</h3>
+            <h3> <a href="/"><img src="../assets/logo2-transparent-png.png" alt="Logo" /></a></h3>
             <nav ref={navRef}>
-                <a href="/">history</a>
+                <a href="/#">history</a>
                 <a href="/#">2222</a>
                 <a href="/#">3333</a>
                 <a href="/#">contact</a>
