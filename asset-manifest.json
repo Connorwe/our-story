@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/our-story/static/css/main.f02ce477.css",
+    "main.js": "/our-story/static/js/main.6ca2e811.js",
+    "static/media/nour-wageh-IBILLYRAW1o-unsplash.jpg": "/our-story/static/media/nour-wageh-IBILLYRAW1o-unsplash.604806ddf51a7375de2d.jpg",
+    "index.html": "/our-story/index.html",
+    "main.f02ce477.css.map": "/our-story/static/css/main.f02ce477.css.map",
+    "main.6ca2e811.js.map": "/our-story/static/js/main.6ca2e811.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f02ce477.css",
+    "static/js/main.6ca2e811.js"
+  ]
+}
