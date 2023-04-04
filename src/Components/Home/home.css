@@ -1,0 +1,46 @@
+.background-image {
+    background-image: url('../../../public/assets/nour-wageh-IBILLYRAW1o-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 4rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+
+@media screen and (max-width: 2000px) {
+    h3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    h3 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    h3 {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h3 {
+        font-size: 1.5rem;
+    }
+}
