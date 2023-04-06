@@ -1,8 +1,8 @@
 
 function EarlyBronzeAge() {
-    return ( 
-        <h1>The Early-Bronze-Age/The Ancient-Age</h1>
-     );
+    return (
+        <h1>Early-Bronze-Age/Ancient-Age</h1>
+    );
 }
 
 export default EarlyBronzeAge;

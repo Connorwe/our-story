@@ -3,13 +3,51 @@ body::-webkit-scrollbar {
 }
 
 h1 {
-    color: #574848;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px black;
     text-align: center;
     margin-top: 7rem;
+    margin-bottom: -1rem;
+    font-size: 3rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+.container {
+    padding: 1px 0;
 }
 
 .history-header {
     font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+}
+
+.history-background {
+    background-color: #574848;
+}
+
+.history-p {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
 }
 
 Link {

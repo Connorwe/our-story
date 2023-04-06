@@ -1,0 +1,33 @@
+.footer {
+    background-color: #574848;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.credit-box {
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.credit-box p {
+    margin: 0;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .footer .container {
+        flex-direction: row;
+    }
+
+    .credit-box {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+}
