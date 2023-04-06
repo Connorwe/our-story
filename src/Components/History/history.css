@@ -43,6 +43,7 @@ a:active {
 
 .history-background {
     background-color: #574848;
+    height: 100vh;
 }
 
 .history-p {
