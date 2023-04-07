@@ -1,6 +1,7 @@
+import './ironAge.css'
 function IronAge() {
-    return (  
-        <h1>Iron Age</h1>
+    return (
+        <h1 className="iron-head">Iron Age</h1>
     );
 }
 
