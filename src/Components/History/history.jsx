@@ -6,7 +6,7 @@ import ironAgeImage from "../assets/iron-age.jpg";
 import classicalAgeImage from "../assets/classical-age.jpg";
 import middleAgesImage from "../assets/middle-ages.jpg";
 import modernAgeImage from "../assets/modern-age.jpg";
-import Footer from "./Footer/footer";
+import Footer from "./Footer/historyFooter";
 function History() {
     return (
         <body className="history-background">
