@@ -1,6 +1,7 @@
+import "../historyHeader.css"
 function ModernPeriod() {
-    return (  
-        <h1>Modern Period</h1>
+    return (
+        <h1 className="agesheader">Modern Period</h1>
     );
 }
 

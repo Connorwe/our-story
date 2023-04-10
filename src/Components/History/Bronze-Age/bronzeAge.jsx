@@ -1,6 +1,7 @@
+import "../historyHeader.css"
 function BronzeAge() {
-    return ( 
-        <h1>Bronze-Age</h1>
+    return (
+        <h1 className="agesheader">Bronze-Age</h1>
     );
 }
 

@@ -1,6 +1,7 @@
+import "../historyHeader.css"
 function MiddleAges() {
-    return (  
-        <h1>Middle Ages</h1>
+    return (
+        <h1 className="agesheader">Middle Ages</h1>
     );
 }
 

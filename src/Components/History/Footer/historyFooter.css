@@ -1,0 +1,40 @@
+.footer {
+    background-color: #574848;
+    padding-left: 10px;
+    padding-bottom: px;
+    padding-top: 10px;
+}
+
+.credits-link {
+    color: darkblue;
+}
+
+.credit-box p {
+
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.credit-box p:first-of-type {
+    color: black;
+}
+
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+@media (min-width: 768px) {
+    .footer .container {
+        flex-direction: row;
+    }
+
+    .credit-box {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+}

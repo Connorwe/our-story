@@ -4,10 +4,10 @@ body::-webkit-scrollbar {
 
 h1 {
     color: white;
-    font-size: 2rem;
+    font-weight: 590;
     text-shadow: 1px 1px 2px black;
     text-align: center;
-    margin-top: 7rem;
+    margin-top: 6rem;
     margin-bottom: -1rem;
     font-size: 3rem;
 }
