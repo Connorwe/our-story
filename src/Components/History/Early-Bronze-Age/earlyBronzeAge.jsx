@@ -4,6 +4,7 @@ import "./earlyBronzeAge.css";
 import EarlyBronzeAgeFooter from "../Footer/earlyBronzeAgeFooter";
 import egyptImage from '../assets/upper-lower-egypt.jpg';
 import egyptImage2 from "../assets/Old-Kingdom.jpg";
+import egyptImage3 from "../assets/Ra-sun-god.jpg";
 
 function EarlyBronzeAge() {
     const [selectedSection, setSelectedSection] = useState("");
@@ -117,7 +118,24 @@ function EarlyBronzeAge() {
                     </div>
                     <div className="right-content">
                         <p>Khephren Pyramid and Sphinx</p>
-                        <img src={egyptImage2} alt="Step Pyramid Saqqara" />
+                        <img src={egyptImage2} alt="Khephren Pyramid and Sphinx" />
+                    </div>
+                </div>
+                <div className="content-wrapper">
+                    <div className="left-content">
+                        <p>
+                            The Pharaohs of Ancient Egypt were Gods or close to Gods and expected to act that way. Egyptian culture was very unique, they worshiped
+                            many gods including Ra the god of the sun and creation. Ra was praised and Egyptians believed that if they pleased this god and the
+                            Pharaoh who was god even beyond death that they would be favored in the afterlife. This is why they built pyramids and other structures.
+                            They also believed that animals had divine power with cats being one of the most powerful. Egyptian society was very literate and wrote
+                            hieroglyphics for sacred texts and demotic scripts for everyday transactions. Egypt was very prosperous and had lots of money and influence
+                            until droughts came and fighting ensued among the Pharaohs. This led to the Middle Kingdom of Egypt which will be covered in
+                            the <a href="Bronze-Age">Bronze Age</a>.<p>For more on the Old Kingdom you can watch this video <a href="https://www.youtube.com/watch?v=P9TXBIBjfog" target="_blank" rel="noopener noreferrer">Fascinating Facts About Egypt's Old Kingdom</a>.</p>
+                        </p>
+                    </div>
+                    <div className="right-content">
+                        <p>Ra King of Deities</p>
+                        <img src={egyptImage3} alt="Ra god" />
                     </div>
                 </div>
             </div>
