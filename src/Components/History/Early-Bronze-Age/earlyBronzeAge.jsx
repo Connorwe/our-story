@@ -5,6 +5,8 @@ import EarlyBronzeAgeFooter from "../Footer/earlyBronzeAgeFooter";
 import egyptImage from '../assets/upper-lower-egypt.jpg';
 import egyptImage2 from "../assets/Old-Kingdom.jpg";
 import egyptImage3 from "../assets/Ra-sun-god.jpg";
+import IndusValley from "../assets/Indus_Valley_Civilization.png";
+import NorteChico from "../assets/Norte-Chico.jpg";
 
 function EarlyBronzeAge() {
     const [selectedSection, setSelectedSection] = useState("");
@@ -20,7 +22,8 @@ function EarlyBronzeAge() {
     const sections = [
         { name: "Sumerians", value: "sumer" },
         { name: "Egyptians", value: "egypt" },
-        { name: "Other section", value: "other" },
+        { name: "Indus", value: "Indus" },
+        { name: "Norte-Chico", value: "Norte-Chico" },
     ];
 
     return (
@@ -136,6 +139,44 @@ function EarlyBronzeAge() {
                     <div className="right-content">
                         <p>Ra King of Deities</p>
                         <img src={egyptImage3} alt="Ra god" />
+                    </div>
+                </div>
+                <div className="Indus-container" id="Indus">
+                    <div className="content-wrapper">
+                        <div className="left-content">
+                            <h2>Indus Valley:</h2>
+                            <p>
+                                Located in the valley of the Indus River this civilization was home to many people and was the largest of the ancient civilizations. Several rivers
+                                flowed through the Indus Valley which made farming plentiful in the region. Indus Valley residents traded with Mesopotamians before the bronze age
+                                and continued to do so after. The Indus people traded goods using seals of authenticity and undeciphered writing on these seals.
+                                This civilization is also known as the Harappan civilization named after one of its largest cities Harappa. This city along with Mohenjo-Daro
+                                was very large with multi-story homes made of bricks and even sewer systems with flushing toilets throughout the city. These cities were well organized with streets following
+                                in grid-like formations, large baths, wells for water, and even an ancient form of air conditioning. The people were mostly peaceful with archeologists finding very little to no weapons in the many sites they have
+                                excavated. This covers the Mature Harappan phase (2600-1900BCE), and I will cover the Late Harappan phase (1900-1300BCE) in the <a href="Bronze-Age">Bronze Age</a>.
+                            </p>
+                        </div>
+                        <div className="right-content">
+                            <img src={IndusValley} alt="Ra god" />
+                        </div>
+                    </div>
+                </div>
+                <div className="Norte-Chico-container" id="Norte-Chico">
+                    <div className="content-wrapper">
+                        <div className="left-content">
+                            <h2>Norte-Chico:</h2>
+                            <p>
+                                The first civilizations in the Americas were located in north-central coastal Peru on the rivers Fortaleza, Pativilica, and Supe. This civilization was preceramic
+                                and was made mostly of fishermen who made nets from cotton to catch fish. The seafood they caught was sold to cotton farmers creating a small trade network.
+                                In the city of Caral which is dated back to 2800 BCE big mounds and circular plazas were constructed for ceremonies and gatherings. Pyramids were built
+                                that were around 4 hundred yards in length during the same time the Egyptians were building theirs. There had to be a governing power organizing the workforce to
+                                build these pyramids and it is believed it was a theocracy. In around 2250 BCE a deity was found on a gourd known as the staff God that would be seen on artifacts
+                                for centuries later in the Americas. A Kepu was discovered in Caral which makes it the oldest one ever found and shows that the Norte Chico had a way to store
+                                information. Norte Chico culture would transfer to other civilizations in the Americas for centuries to come and help develop Central and South America.
+                            </p>
+                        </div>
+                        <div className="right-content">
+                            <img src={NorteChico} alt="Ra god" />
+                        </div>
                     </div>
                 </div>
             </div>
