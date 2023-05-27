@@ -3,15 +3,15 @@ import "../historyHeader.css";
 import "./bronzeAge.css";
 import BronzeAgeFooter from "../Footer/bronzeAgeFooter";
 import "../historyPages.css";
-import Minoan1 from "../assets/minoan-1.jpg";
-import Minoan2 from "../assets/minoan-2.jpg";
-import Mentuhotep from "../assets/Mentuhotep Nebhepetre.jpg";
-import SesostrisIII from "../assets/Sesostris-III.jpg";
-import SecondIntermediate from "../assets/SecondIntermediate.png";
-import Hatshepsut from "../assets/hatshepsut.jpg";
-import Nefertiti from "../assets/nefertiti.jpg";
-import Ramessestemple from "../assets/Ramesses-temple.jpg";
-import AmunRa from "../assets/Amun-Ra.jpg";
+import Minoan1 from "./assets/minoan-1.jpg";
+import Minoan2 from "./assets/minoan-2.jpg";
+import Mentuhotep from "./assets/Mentuhotep Nebhepetre.jpg";
+import SesostrisIII from "./assets/Sesostris-III.jpg";
+import SecondIntermediate from "./assets/SecondIntermediate.png";
+import Hatshepsut from "./assets/hatshepsut.jpg";
+import Nefertiti from "./assets/nefertiti.jpg";
+import Ramessestemple from "./assets/Ramesses-temple.jpg";
+import AmunRa from "./assets/Amun-Ra.jpg";
 function BronzeAge() {
 
     const [selectedSection, setSelectedSection] = useState("");
@@ -222,6 +222,31 @@ function BronzeAge() {
                     <div className="right-content">
                         <p>Amun-Ra</p>
                         <img src={AmunRa} alt="Amun-Ra" />
+                    </div>
+                </div>
+            </div>
+            <div className="Minoans-container" id="Minoan">
+                <div className="content-wrapper">
+                    <div className="left-content">
+                        <h2>Old Babylonian Empire</h2>
+                        <p>
+                            The Sumerian Civilization evolved into the Babylonian Civilization after the Kiloyear Event (start of bronze age).
+                        </p>
+                    </div>
+                    <div className="right-content">
+                        {/* <p>'Ladies In Blue' fresco</p>
+                        <img src={Minoan1} alt="'Ladies In Blue' fresco" /> */}
+                    </div>
+                </div>
+                <div className="content-wrapper">
+                    <div className="left-content">
+                        <h4 className="minoan-header-2">Neo Platial Period (1750-1500BCE):</h4>
+                        <p>
+
+                        </p>
+                    </div>
+                    <div className="right-content">
+                        {/* <img src={Minoan2} alt="Minoan map" /> */}
                     </div>
                 </div>
             </div>

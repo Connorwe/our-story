@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import "../historyHeader.css";
 import "./earlyBronzeAge.css";
 import EarlyBronzeAgeFooter from "../Footer/earlyBronzeAgeFooter";
-import egyptImage from '../assets/upper-lower-egypt.jpg';
-import egyptImage2 from "../assets/Old-Kingdom.jpg";
-import egyptImage3 from "../assets/Ra-sun-god.jpg";
-import IndusValley from "../assets/Indus_Valley_Civilization.png";
-import NorteChico from "../assets/Norte-Chico.jpg";
+import egyptImage from './assets/upper-lower-egypt.jpg';
+import egyptImage2 from "./assets/Old-Kingdom.jpg";
+import egyptImage3 from "./assets/Ra-sun-god.jpg";
+import IndusValley from "./assets/Indus_Valley_Civilization.png";
+import NorteChico from "./assets/Norte-Chico.jpg";
+import Akkadian from "./assets/Akkadian.jpg";
 
 function EarlyBronzeAge() {
     const [selectedSection, setSelectedSection] = useState("");
@@ -21,6 +22,7 @@ function EarlyBronzeAge() {
 
     const sections = [
         { name: "Sumerians", value: "sumer" },
+        { name: "Akkadians", value: "Akkadian" },
         { name: "Egyptians", value: "egypt" },
         { name: "Indus", value: "Indus" },
         { name: "Norte-Chico", value: "Norte-Chico" },
@@ -78,6 +80,24 @@ function EarlyBronzeAge() {
                             alt="Sumer"
                         />
                         <img src="" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div className="akkadian-container" id="Akkadian">
+                <div className="content-wrapper">
+                    <div className="left-content">
+                        <h2>Akkadian Empire:</h2> <h4 className="egypt-header-2">(2350-2150BCE)</h4>
+                        <p>
+                            The Akkadians came to power by conquering the Sumerians from within. This happened due to a man called Sargon the Great who ruled from 2334-2279BCE. He was the cupbearer for the
+                            King of Kish and usurped power from him making himself the king. He then went on conquests conquering southern Mesopotamia and other areas to the north
+                            and east creating the first multinational empire in the world. He was succeeded by Rimush And Manishtushu his two sons who kept the empire strong. Manishtushu was succeeded by his son
+                            Naram-Sin, like usual the power switch was not smooth but the empire prospered under his control. This is considered the peak of the Akkadian Empire until at the end of Naram-Sin's
+                            reign a famine broke out killing many people in the empire. After his death Shar-Kali-Sharri, his son inherited the throne suffering the same power struggles as his father did in the
+                            beginning of his rule. During his reign, the empire eventually fell either due to constant war or abrupt drought coupled with civil turmoil.
+                        </p>
+                    </div>
+                    <div className="right-content">
+                        <img src={Akkadian} alt="Akkadian Empire" />
                     </div>
                 </div>
             </div>

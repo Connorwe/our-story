@@ -12,6 +12,7 @@ function EarlyBronzeAgeFooter() {
                     <p> <a className="credits-link" href="https://en.wikipedia.org/wiki/Indus_Valley_Civilisation" target="_blank" rel="noopener noreferrer">@wikipediaIMG</a> </p>
                     <p> <a className="credits-link" href="https://www.youtube.com/@AncientAmericas" target="_blank" rel="noopener noreferrer">@AncientAmericas</a> </p>
                     <p> <a className="credits-link" href="https://www.youtube.com/@crashcourse" target="_blank" rel="noopener noreferrer">@crashcourse</a></p>
+                    <p> <a className="credits-link" href="https://www.metmuseum.org/toah/hd/akka/hd_akka.htm" target="_blank" rel="noopener noreferrer">@metmuseum</a></p>
                 </div>
             </div>
         </footer>
