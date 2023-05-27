@@ -11,6 +11,7 @@ function BronzeAgeFooter() {
                     <p> <a className="credits-link" href="https://www.greecehighdefinition.com/blog/2021/3/18/rise-and-fall-of-the-mighty-minoans" target="_blank" rel="noopener noreferrer">@greecehighdefinition</a> </p>
                     <p> <a className="credits-link" href="https://www.metmuseum.org/art/collection/search/548212" target="_blank" rel="noopener noreferrer">@metmuseum</a> </p>
                     <p> <a className="credits-link" href="https://www.britannica.com/place/ancient-Egypt/The-Middle-Kingdom-1938-c-1630-bce-and-the-Second-Intermediate-period-c-1630-1540-bce" target="_blank" rel="noopener noreferrer">@britannica</a> </p>
+                    <p> <a className="credits-link" href="https://www.history.com/news/8-things-you-may-not-know-about-hammurabis-code" target="_blank" rel="noopener noreferrer">@history</a> </p>
                 </div>
             </div>
         </footer>

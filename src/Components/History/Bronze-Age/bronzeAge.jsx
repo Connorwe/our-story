@@ -12,6 +12,7 @@ import Hatshepsut from "./assets/hatshepsut.jpg";
 import Nefertiti from "./assets/nefertiti.jpg";
 import Ramessestemple from "./assets/Ramesses-temple.jpg";
 import AmunRa from "./assets/Amun-Ra.jpg";
+import HammurabiCode from "./assets/Hammurabicode.jpg";
 function BronzeAge() {
 
     const [selectedSection, setSelectedSection] = useState("");
@@ -225,28 +226,21 @@ function BronzeAge() {
                     </div>
                 </div>
             </div>
-            <div className="Minoans-container" id="Minoan">
+            <div className="Babylonian-container" id="Babylonian">
                 <div className="content-wrapper">
                     <div className="left-content">
                         <h2>Old Babylonian Empire</h2>
                         <p>
-                            The Sumerian Civilization evolved into the Babylonian Civilization after the Kiloyear Event (start of bronze age).
+                            After the Akkadians there was the Sumerian Renaissance from 2100-2000BCE. Eventually the Elamites conquered Ur and Amorites began to take control of Sumer.
+                            Amorite culture was soon accepted and these people became the Babylonians. Babylon was a port city on the Euphrates River until the rise of King Hammurabi (1792-1750BCE).
+                            He made Babylon the capital of the Empire and was very succesful as a ruler. He fought wars against Elam and many other peoples and won them all. Hammurabi
+                            is best known for his law codes which peacefully governed his people acrossed the empire. However his empire had grown very
+                            large and this proved to be trouble for his successors. The Hittie Empire sometime around 1595 sacked Babylon but were soon taken over by the Kassite tribes.
                         </p>
                     </div>
                     <div className="right-content">
-                        {/* <p>'Ladies In Blue' fresco</p>
-                        <img src={Minoan1} alt="'Ladies In Blue' fresco" /> */}
-                    </div>
-                </div>
-                <div className="content-wrapper">
-                    <div className="left-content">
-                        <h4 className="minoan-header-2">Neo Platial Period (1750-1500BCE):</h4>
-                        <p>
-
-                        </p>
-                    </div>
-                    <div className="right-content">
-                        {/* <img src={Minoan2} alt="Minoan map" /> */}
+                        <p>Code of Hammurabi</p>
+                        <img src={HammurabiCode} alt="Code of Hammurabi" />
                     </div>
                 </div>
             </div>
