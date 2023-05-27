@@ -1,5 +1,6 @@
 import React from "react";
 import "./historyPagesFooter.css"
+import "./historyPagesFooter.css"
 import "../Early-Bronze-Age/earlyBronzeAge"
 
 function EarlyBronzeAgeFooter() {
