@@ -55,7 +55,7 @@ function EarlyBronzeAge() {
                             focus on 3300 BCE and on. They started the bronze age by creating
                             bronze from copper and tin and then using this metal to create
                             stronger tools and weapons.
-                            <br />
+
                             The advancement of copper saw greater crop yields and easier
                             hunting creating population growth. People were now able to do new
                             things now that they didn't have to focus on surviving. The first
@@ -65,7 +65,7 @@ function EarlyBronzeAge() {
                             that is known as the birthplace of writing and the first stone
                             structure buildings in 3300 BCE. Uruk was the most influential
                             city in Mesopotamia through to 3000 BCE.
-                            <br />
+
                             Sumerians were divided into the upper class and plebs depending on
                             who you were or what you did in your life you could jump between
                             the two groups. There were a wide array of professions and people
@@ -90,7 +90,7 @@ function EarlyBronzeAge() {
                             Both regions had their own king and fought with each other often. Eventually, the two regions united around 3100 BC.
                             This unification created an era known as the Early Dynastic Period of Egypt (3000–2686 BCE). The person who unified the lands and became Pharoh is believed to be named either
                             Narmer or Menes. It is argued who the Pharoh was but widely believed that these names belonged to the same person.
-                            <br /> This period consisted of the First and Second Dynasties.
+                            This period consisted of the First and Second Dynasties.
                             These Dynasties ruled from the city of Memphis with the firsts kings being buried in Abydos and the seconds being buried in
                             Saqqara or Abydos. There was a rise in urbanism and more power was brought towards the pharohs of Egypt. Limited use of writing was developed
                             and document collection was used to keep track of state revenues. The Early Dynastic Period set the ground work for the periods to follow such as the
@@ -111,7 +111,7 @@ function EarlyBronzeAge() {
                             during the Old Kingdom, this was possible because of the strong centralized government during the 3rd through 4th dynasties rein. With the 5th and 6th dynasties,
                             priesthood became popular because of their mortuary practices with the great pyramids. Because of this the Old Kingdom began to fall as local governors rose to
                             power in regions across Egypt. Central government was lost and Memphis's power was diminished.
-                            <br />  The Old Kingdom was the golden age of Egypt. Feats of unimaginable difficulty were accomplished by extreme organization of power. During the 4th dynasty
+                            The Old Kingdom was the golden age of Egypt. Feats of unimaginable difficulty were accomplished by extreme organization of power. During the 4th dynasty
                             Khufu saw to the construction of the Great Pyramid of Giza. This ancient wonder of the world is 146 meters high, 230 meters at the base, contains 2,300,000
                             blocks of stone with an average weight of 2 and 3/4 tons. This pyramid was constructed in 23 years (the length of Khufu's rule) so that would mean 1 every
                             2 minutes a block of stone would have to be quarried, transported, chiseled, and placed. The pyramid was flawless and lined up exactly with the cardinal directions.

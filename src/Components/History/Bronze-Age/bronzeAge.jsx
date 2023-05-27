@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import "../historyHeader.css";
 import "./bronzeAge.css";
 import BronzeAgeFooter from "../Footer/bronzeAgeFooter";
-import "../historyPages.css"
-import Minoan1 from "../assets/minoan-1.jpg"
-import Minoan2 from "../assets/minoan-2.jpg"
-import Mentuhotep from "../assets/Mentuhotep Nebhepetre.jpeg"
-import SesostrisIII from "../assets/Sesostris-III.jpg"
-import SecondIntermediate from "../assets/SecondIntermediate.png"
+import "../historyPages.css";
+import Minoan1 from "../assets/minoan-1.jpg";
+import Minoan2 from "../assets/minoan-2.jpg";
+import Mentuhotep from "../assets/Mentuhotep Nebhepetre.jpg";
+import SesostrisIII from "../assets/Sesostris-III.jpg";
+import SecondIntermediate from "../assets/SecondIntermediate.png";
+import Hatshepsut from "../assets/hatshepsut.jpg";
+import Nefertiti from "../assets/nefertiti.jpg";
+import Ramessestemple from "../assets/Ramesses-temple.jpg";
+import AmunRa from "../assets/Amun-Ra.jpg";
 function BronzeAge() {
 
     const [selectedSection, setSelectedSection] = useState("");
@@ -156,8 +160,8 @@ function BronzeAge() {
                         </p>
                     </div>
                     <div className="right-content">
-                        {/* <p>Sesostris III</p>
-                        <img src={SesostrisIII} alt="Sesostris III" /> */}
+                        <p>Mortuary Temple of Hatshepsut</p>
+                        <img src={Hatshepsut} alt="Queen Hatshepsut temple" />
                     </div>
                 </div>
                 <div className="content-wrapper">
@@ -175,8 +179,8 @@ function BronzeAge() {
                         </p>
                     </div>
                     <div className="right-content">
-                        {/* <p>Sesostris III</p>
-                        <img src={SesostrisIII} alt="Sesostris III" /> */}
+                        <p>Nefertiti</p>
+                        <img src={Nefertiti} alt="Nefertiti" />
                     </div>
                 </div>
                 <div className="content-wrapper">
@@ -197,25 +201,29 @@ function BronzeAge() {
                         </p>
                     </div>
                     <div className="right-content">
-                        {/* <p>Sesostris III</p>
-                        <img src={SesostrisIII} alt="Sesostris III" /> */}
+                        <p>Ramesses Temple</p>
+                        <img src={Ramessestemple} alt="Ramesses Temple" />
                     </div>
                 </div>
                 <div className="content-wrapper">
                     <div className="left-content">
-                        <h4 className="egypt-header-2">New Kingdom 20th Dynasty:</h4>
+                        <h4 className="egypt-header-2">New Kingdom Decline:</h4>
                         <p>
-
+                            It is believed that Setnakhte was somehow related to Seti II because usurpers were not accepted as Egyptian kings. Sethakhte held Egypt in balance until his
+                            successor Ramesses III. Ramesses III drove off the Sea Peoples for that last time and was the last strong leader of the New Kingdom. He held the country together
+                            as long as he could but the Amun priests had gained more power than the king. Ramesses was killed by one of his wives and Ramesses IV inherited the throne.
+                            As the empire was shrinking he died soon after he became pharaoh. Ramesses V through XI struggled to hold power from the priests and outside invaders. This marked the
+                            decline of the monarchy. The priests now reigned as pharaohs from Thebes and divided the country creating the same turmoil as the 1st and 2nd intermediate periods.
+                            When Ramesses XI died and was succeeded by Smendes I Egypt's central government had disappeared and the Egyptian Empire fell. During the 18th and 19th Dynasties Egypt was at its most
+                            powerful with a strong centralized government with the Pharoh at the center. This started to come to an end during the 20th dynasty as priests of Amun started to
+                            gain status at Thebes and divided Egypt between Pharoh and priests.
                         </p>
                     </div>
                     <div className="right-content">
-                        {/* <p>Sesostris III</p>
-                        <img src={SesostrisIII} alt="Sesostris III" /> */}
+                        <p>Amun-Ra</p>
+                        <img src={AmunRa} alt="Amun-Ra" />
                     </div>
                 </div>
-                {/* During the 18th and 19th Dynasties Egypt was at its most
-                            powerful with a stong centralized government with the Pharoh at the center. This started to come to an end during the 20th dynasty as priests of Amun started to
-                            gain status at Thebes and divided Egypt between Pharoh and priest. */}
             </div>
             <BronzeAgeFooter />
         </div>

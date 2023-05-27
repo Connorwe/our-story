@@ -9,13 +9,13 @@ function Navbar() {
         navRef.current.classList.toggle("responsive_nav")
     }
 
-    return ( 
+    return (
         <header>
             <h3> <a href="/"><img src="../assets/logo2-transparent-png.png" alt="Logo" /></a></h3>
             <nav ref={navRef}>
                 <a href="/history">history</a>
                 <a href="/empires">empires</a>
-                <a href="/conquerors">conquerors</a>
+                <a href="/timeline">timeline</a>
                 <a href="/conspiracies">conspiracies</a>
                 <a href="/contact">contact</a>
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
@@ -26,7 +26,7 @@ function Navbar() {
                 <FaBars />
             </button>
         </header>
-     );
+    );
 }
 
 export default Navbar;
