@@ -44,6 +44,11 @@
         justify-content: flex-start;
         max-height: 60%;
     }
+
+    h2,
+    h4 {
+        text-align: center;
+    }
 }
 
 .left-content h2 {

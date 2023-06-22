@@ -13,6 +13,9 @@ import Nefertiti from "./assets/nefertiti.jpg";
 import Ramessestemple from "./assets/Ramesses-temple.jpg";
 import AmunRa from "./assets/Amun-Ra.jpg";
 import HammurabiCode from "./assets/Hammurabicode.jpg";
+import Kerma from "./assets/Kerma.jpg";
+import Yu from "./assets/Yu-the-Great-1.png";
+import Shang from "./assets/shang-dynasty.jpeg";
 function BronzeAge() {
 
     const [selectedSection, setSelectedSection] = useState("");
@@ -28,6 +31,9 @@ function BronzeAge() {
     const sections = [
         { name: "Minoans", value: "Minoan" },
         { name: "Egyptians", value: "egypt" },
+        { name: "Kerma", value: "Kerma" },
+        { name: "Babylon", value: "Babylonian" },
+        { name: "China", value: "China" },
     ];
 
     return (
@@ -226,10 +232,28 @@ function BronzeAge() {
                     </div>
                 </div>
             </div>
+            <div className="Kerma-container" id="Kerma">
+                <div className="content-wrapper">
+                    <div className="left-content">
+                        <h2>Kerma:</h2>
+                        <p>
+                            Kerma was located in southern Egypt and present day Sudan. Kerma was the capital of Nubia with which Egyptains traded with for things like gold, slaves, and other valuables.
+                            There was a lot of tension between Egypt and Nubia for the duration of there kingdoms. When the Hyksos came to Egypt the Kermites decided to ally with them semi
+                            against Egypt. Eventually the Hyksos would rule upper Egypt and the Kerma kingdom got to rule the south. This was the golden era of the Kerma Kingdom. Egypt was
+                            pulled back together by King Thutmose I who would march an army south into Kerma and take the Kingdom ending the Kerma reign. Some Kermites survived who would later
+                            be known as the Kush and come to rule Egypt.
+                        </p>
+                    </div>
+                    <div className="right-content">
+                        <p>Deffufa Temple</p>
+                        <img src={Kerma} alt="Deffufa Temple" />
+                    </div>
+                </div>
+            </div>
             <div className="Babylonian-container" id="Babylonian">
                 <div className="content-wrapper">
                     <div className="left-content">
-                        <h2>Old Babylonian Empire</h2>
+                        <h2>Old Babylonian Empire:</h2>
                         <p>
                             After the Akkadians there was the Sumerian Renaissance from 2100-2000BCE. Eventually the Elamites conquered Ur and Amorites began to take control of Sumer.
                             Amorite culture was soon accepted and these people became the Babylonians. Babylon was a port city on the Euphrates River until the rise of King Hammurabi (1792-1750BCE).
@@ -241,6 +265,49 @@ function BronzeAge() {
                     <div className="right-content">
                         <p>Code of Hammurabi</p>
                         <img src={HammurabiCode} alt="Code of Hammurabi" />
+                    </div>
+                </div>
+            </div>
+            <div className="China-container" id="China">
+                <div className="Xia-container" id="Xia">
+                    <div className="content-wrapper">
+                        <div className="left-content">
+                            <h2>China:</h2> <h4 className="egypt-header-2">(Xia Dynasty 2070-1600BCE)</h4>
+                            <p>
+                                The Yellow Emperor also known as Haung-ti created Chinese culture and transformed China from a tribal system to a dynastic government. When he died
+                                his grandson Zhuanxu founded the Xia tribe which defeated all the other tribes and became the first dynasty under Emperor Yao. Many palaces were built
+                                and Yao was a good leader. Floods were a major problem during this time and Yao had to appoint a man named Gun to control the situation. Gun failed so
+                                Emperor Shun appointed Gun's son Yu to try and stop the flooding. Yu thoroughly conducted a project that lasted 13 years to stop the flooding and was
+                                ultimately successful. Shun then made Yu the leader of his army and Yu would go on to defeat the Sanmiao tribe who had been attacking Xia's borders. Yu
+                                was then made heir to the throne by Shun for winning the battle. Yu was a great emperor during his 45 years of rule and declared his son Qi to be his
+                                successor. This made Yu the starter of the Xia Dynasty. All of the Emperors after this weren't very notable other than developments like wearing armor in battle.
+                                Eventually, the last emperor Jie was overthrown by Tang who would create the Shang Dynasty.
+                            </p>
+                        </div>
+                        <div className="right-content">
+                            <p>Yu the Great</p>
+                            <img src={Yu} alt="Yu the Great" />
+                        </div>
+                    </div>
+                </div>
+                <div className="Xia-container" id="Xia">
+                    <div className="content-wrapper">
+                        <div className="left-content">
+                            <h4 className="egypt-header-2">(Shang Dynasty 1600-1046 BCE)</h4>
+                            <p>
+                                The Shang Dynasty succeeded the Xia Dynasty when Shang Emperor Tang overthrew Jie. He overthrew Jie because he believed that he was a tyrant and had lost the
+                                mandate of heaven. China was prosperous during Tang's rule and Tang established a new government for the people. The Shang were also known for their advances
+                                in military, math, and artworks. They grew more food than the other dynasties had allowing more time to explore other things. The stability of this dynasty brought
+                                a thriving economy and new religious thought like Taoism. Taoism is the belief that there is a cosmic force that flows through all things attaching them and releasing them.
+                                Writing and the calendar year developed by Wan-Nien proving there to be 365 days in a year were developed as well. Wu Ding was the last good emperor who made advances in
+                                medicine up until 1192 BCE. After his rule, the dynasty went into decline until emperor Xin the tyrant was overthrown by King Wu of the Zhou province. This means the end of
+                                the Shang Dynasty and the beginning of the Zhou Dynasty.
+                            </p>
+                        </div>
+                        <div className="right-content">
+                            <p>King Zhu lights signal Beacons</p>
+                            <img src={Shang} alt="lighting of signal Beacons" />
+                        </div>
                     </div>
                 </div>
             </div>
